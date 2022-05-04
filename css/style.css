@@ -1,0 +1,578 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* HEADER */
+#header {
+  margin: 0 7%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.logoimg {
+  width: 51.6px;
+  height: 44.7px;
+}
+.title {
+  font-size: 21.3333px;
+  line-height: 37.3333px;
+  letter-spacing: 7.46667px;
+  padding-left: 8px;
+  color: #585858;
+}
+.headingh1 {
+  font-size: 28px;
+  color: #585858;
+  padding-bottom: 20px;
+}
+.headingp {
+  line-height: 37.3333px;
+  color: #585858;
+}
+/* MAIN */
+#main {
+  padding-bottom: 5%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  margin: 0 5%;
+}
+.grid-item1 {
+  background-image: url(/images/pic01.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item1:hover {
+  transform: scale(1.07);
+}
+.mainlink {
+  text-decoration: none;
+  color: white;
+}
+.magnacontent {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(231, 139, 154, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.magnacontent:hover {
+  background-color: transparent;
+}
+
+.mainh1 {
+  margin: 0;
+  align-self: center;
+  letter-spacing: 7px;
+}
+.mainp {
+  text-align: center;
+  max-width: 25ch;
+  align-self: center;
+}
+
+.grid-item2 {
+  background-image: url(/images/pic02.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item2:hover {
+  transform: scale(1.07);
+}
+.loremcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(99, 173, 212, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.loremcontent:hover {
+  background-color: transparent;
+}
+
+.grid-item3 {
+  background-image: url(/images/pic03.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item3:hover {
+  transform: scale(1.07);
+}
+.feugiatcontent {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(99, 172, 161, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.feugiatcontent:hover {
+  background-color: transparent;
+}
+
+.grid-item4 {
+  background-image: url(/images/pic04.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item4:hover {
+  transform: scale(1.07);
+}
+.tempuscontent {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(205, 116, 162, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.tempuscontent:hover {
+  background-color: transparent;
+}
+
+.grid-item5 {
+  background-image: url(/images/pic05.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item5:hover {
+  transform: scale(1.07);
+}
+.aliquamcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(173, 142, 202, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.aliquamcontent:hover {
+  background-color: transparent;
+}
+.grid-item6 {
+  background-image: url(/images/pic06.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item6:hover {
+  transform: scale(1.07);
+}
+.veroeroscontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(117, 133, 195, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.veroeroscontent:hover {
+  background-color: transparent;
+}
+.grid-item7 {
+  background-image: url(/images/pic07.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item7:hover {
+  transform: scale(1.07);
+}
+.ipsumcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(115, 178, 211, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.ipsumcontent:hover {
+  background-color: transparent;
+}
+.grid-item8 {
+  background-image: url(/images/pic08.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item8:hover {
+  transform: scale(1.07);
+}
+.dolorcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(113, 182, 177, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.dolorcontent:hover {
+  background-color: transparent;
+}
+.grid-item9 {
+  background-image: url(/images/pic09.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item9:hover {
+  transform: scale(1.07);
+}
+.nullamcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(212, 122, 148, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.nullamcontent:hover {
+  background-color: transparent;
+}
+.grid-item10 {
+  background-image: url(/images/pic10.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item10:hover {
+  transform: scale(1.07);
+}
+.ultriciescontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(152, 119, 172, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.ultriciescontent:hover {
+  background-color: transparent;
+}
+.grid-item11 {
+  background-image: url(/images/pic11.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item11:hover {
+  transform: scale(1.07);
+}
+.dictumcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(137, 133, 194, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.dictumcontent:hover {
+  background-color: transparent;
+}
+.grid-item12 {
+  background-image: url(/images/pic03.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 267px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 7px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.grid-item12:hover {
+  transform: scale(1.07);
+}
+.pretiumcontent {
+  height: 100%;
+  width: 100%;
+  background-color: RGBa(205, 119, 166, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+.pretiumcontent:hover {
+  background-color: transparent;
+}
+@media (min-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+  .grid-item1,
+  .grid-item2,
+  .grid-item3,
+  .grid-item4,
+  .grid-item5,
+  .grid-item6,
+  .grid-item7,
+  .grid-item8,
+  .grid-item9,
+  .grid-item10,
+  .grid-item11,
+  .grid-item12 {
+    height: 330px;
+  }
+  .grid-item1:hover,
+  .grid-item2:hover,
+  .grid-item3:hover,
+  .grid-item4:hover,
+  .grid-item5:hover,
+  .grid-item6:hover,
+  .grid-item7:hover,
+  .grid-item8:hover,
+  .grid-item9:hover,
+  .grid-item10:hover,
+  .grid-item11:hover,
+  .grid-item12:hover {
+    transform: scale(1.03);
+  }
+  .headingp {
+    font-size: 22px;
+  }
+  .headingh1 {
+    font-size: 38px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows: 400px 400px 400px;
+    margin: 0 15%;
+  }
+  #header {
+    margin: 0 15%;
+  }
+  .grid-item1,
+  .grid-item2,
+  .grid-item3,
+  .grid-item4,
+  .grid-item5,
+  .grid-item6,
+  .grid-item7,
+  .grid-item8,
+  .grid-item9,
+  .grid-item10,
+  .grid-item11,
+  .grid-item12 {
+    height: 400px;
+  }
+  .grid-item1:hover,
+  .grid-item2:hover,
+  .grid-item3:hover,
+  .grid-item4:hover,
+  .grid-item5:hover,
+  .grid-item6:hover,
+  .grid-item7:hover,
+  .grid-item8:hover,
+  .grid-item9:hover,
+  .grid-item10:hover,
+  .grid-item11:hover,
+  .grid-item12:hover {
+    transform: scale(1.03);
+  }
+  .title {
+    font-size: 30.3333px;
+    line-height: 37.3333px;
+    letter-spacing: 7.46667px;
+    padding-left: 8px;
+    color: #585858;
+  }
+  .headingh1 {
+    font-size: 50px;
+    color: #585858;
+    padding-bottom: 20px;
+  }
+  .headingp {
+    line-height: 37.3333px;
+    color: #585858;
+    font-size: 25px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 15%;
+  }
+  .forma {
+    flex: 3;
+    order: 1;
+  }
+  .icons {
+    flex: 1;
+    order: 2;
+    padding-left: 50px;
+  }
+  .bigscreen {
+    display: flex;
+    gap: 25px;
+  }
+  .bigscreen > input {
+    margin: 7% 0;
+    padding-bottom: 10px;
+  }
+  input.btn {
+    width: 15%;
+    font-size: 18px;
+    letter-spacing: 6px;
+  }
+  textarea.text-area {
+    width: 100%;
+  }
+}
+
+/* FOOTER */
+#footer {
+  background-color: #f6f6f6;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #585858;
+  width: 100%;
+}
+.icons {
+  margin-top: 50px;
+}
+.icons > h1 {
+  padding-top: 10%;
+  padding-left: 5%;
+  letter-spacing: 7px;
+}
+.iconas {
+  padding: 20px 20px;
+  border: 1px solid #585858;
+  margin: 5px 5px;
+  border-radius: 5px;
+}
+.iconas:hover {
+}
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+.forma {
+  margin-top: 50px;
+  padding-left: 5%;
+  padding-bottom: 50px;
+}
+.forma > h1 {
+  letter-spacing: 7px;
+}
+.inputas,
+.text-area {
+  margin: 35px 0;
+  border: none;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #585858;
+  font-size: 20px;
+  width: 90%;
+}
+.btn {
+  width: 90%;
+  padding: 15px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: RGB(88, 88, 88);
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #e88a9c;
+}
+.iconas:hover {
+  color: #e88a9c;
+  border: 1px solid #e88a9c;
+}
+.copy {
+  color: #b9b8b8;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+}
+.text-area {
+  max-width: 100%;
+  resize: none;
+  padding-bottom: 30px;
+}
