@@ -478,7 +478,7 @@ h4 {
     order: 1;
   }
   .icons {
-    flex: 1;
+    flex: 2;
     order: 2;
     padding-left: 50px;
   }
